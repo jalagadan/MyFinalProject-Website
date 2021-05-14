@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        
+          <title>
+              MY ALMA MATTER WEBSITE
+          </title>
+          <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <header>
+                <a href="#" class="logo"><img src="logo.jpg" alt="upang.jpg" style="width:128px;height:128px;"></a>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="news.html">News and Events</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="register.html">STUDENT PROFILE</a></li>
+                    
+                    
+                    
+                </ul>
+            </header>
+            <section class="banner" id="banner">
+                <div class="content">
+                    <h2>PHINMA - UNIVERSITY OF PANGASINAN</h2>
+                    <p>Making lives better through education</p>
+                    <a href="#" class="btn">WELCOME</a>
+                </div>
+            </section>
+
+            <script type="text/javascript">
+            window.addEventListener('scroll', function(){
+                const header = document.querySelector('header');
+                header.classList.toggle("sticky", window.scrollY > 0);
+            })
+            </script>
+        </body>
+        
+    
+</html>
